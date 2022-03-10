@@ -112,7 +112,7 @@ public class ScenesManager : MonoBehaviour
             {
                 if (operation.Status == AsyncOperationStatus.Succeeded)
                 {
-                    print($"Successfully unloaded {handle.Result.Scene.name} scene");
+                    print($"Successfully unloaded scene");
                 }
             };
         }
